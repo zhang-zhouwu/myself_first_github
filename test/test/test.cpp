@@ -17,11 +17,17 @@ test::~test()
 
 void a()
 {
-	
+	int a2;
 }
 		
 void b()
-{}
+{
+	int b;
+}
 
 void c()
-{}
+{
+	a();
+	b();
+	c();
+}
