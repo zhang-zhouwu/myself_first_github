@@ -7,6 +7,8 @@ test::test(QWidget *parent, Qt::WFlags flags)
 	ui.setupUi(this);
 	int b = 0;
 	int c = 0;
+
+	int d;
 }
 
 test::~test()
