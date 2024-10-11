@@ -8,7 +8,7 @@ test::test(QWidget *parent, Qt::WFlags flags)
 	int b = 0;
 	int c = 0;
 
-	int d;
+	int d=0;
 }
 
 test::~test()
